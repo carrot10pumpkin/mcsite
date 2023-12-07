@@ -1,0 +1,17 @@
+from django.shortcuts import render
+from django.http import HttpResponse
+
+# Create your views here.
+def index(request):
+    return render(request, 'MaconCoders/index.html')
+
+def projects(request):
+    return render(request, "MaconCoders/projects.html")
+
+def suggestionForm(request):
+    return render(request, "MaconCoders/suggestionForm.html")
+
+def aboutUs(request):
+    return render(request, "MaconCoders/aboutUs.html")
+
+
