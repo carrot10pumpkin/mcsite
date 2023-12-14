@@ -42,7 +42,14 @@ module.exports = {
         // '../../**/*.py'
     ],
     theme: {
-        extend: {},
+        extend: {
+
+            fontFamily: { 
+                'Raleway': [ 'Raleway', 'sans-serif'], 
+            }, 
+
+
+        },
     },
     plugins: [
         /**

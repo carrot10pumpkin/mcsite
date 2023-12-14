@@ -1,3 +1,5 @@
+//I made this correction 12/11/23
+
 var $content = $('#imgsList'); // Cache your selectors!
 
 $(".slide-control.left").hover( function loop() {
@@ -17,6 +19,7 @@ $(".slide-control.right").hover( function loop() {
 }, function stop() {
     $content.stop();
 });
+
 
 // var $content = $('#imgsList');
 

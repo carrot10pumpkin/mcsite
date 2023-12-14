@@ -9,7 +9,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tailwind django</title>
+    <title>Macon Code</title>
     {% tailwind_css %}
 
    <style>
@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="{% static  'css/styles.css' %}" />
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>  
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 
 </head>
 <body>  
@@ -154,7 +154,7 @@
            
             <h1
             class="max-w-xl uppercase mb-4 text-xl leading-tight md:text-4xl md:leading-tight lg:text-6xl lg:leading-tight font-bold text-white">
-            Help us design for Macon!
+            Help us design for Macon! 
             </h1>
             <p class="text-xl text-white font-normal leading-relaxed lg:leading-normal lg:text-2xl tracking-wide mt-6 max-w-4xl">
               We are Macon Code, a non-profit organization working on solutions for community problems through the thoughtful use of technology. We beleive in the possibilities of our community, and we strive to develop resources that make Macon better for everyone.
@@ -168,7 +168,46 @@
    
       </div>
       </main>
-
+      <section class="text-center p-8">
+        <!-- <h2 class="font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
+          About us
+        </h2> -->
+      
+      
+      
+        <div class="flex flex-wrap items-center mt-20 text-left  text-center">
+            <div class="w-full md:w-3/5 lg:w-1/2 px-4">
+              <img src="https://picsum.photos/647/486" alt="bulk editing" class="inline-block rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 ">
+            </div>
+            <div class="w-full md:w-2/5 lg:w-1/2 px-4 text-center md:text-left lg:pl-12">
+                <h3 class="font-bold mt-8 text-xl md:mt-0 sm:text-2xl">
+                Our Mission
+                </h3>
+                <p class="sm:text-lg mt-6">
+                    LocaleData provides you easy import/export functions for your YAML files.
+                    Use a simple editor with many predefined languages to manage your locales.
+                    LocaleData also supports multiple translation types, such as simple text, plural forms,
+                    numbers, booleans, symbols, arrays, ...
+                </p>
+            </div>
+        </div>
+      
+        <div class="flex flex-wrap items-center mt-20 text-left text-center">
+            <div class="w-full md:w-3/5 lg:w-1/2 px-4">
+                <img src="https://picsum.photos/647/486" alt="bulk editing" class="inline-block rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 ">
+            </div>
+            <div class="w-full md:w-2/5 lg:w-1/2 px-4 md:order-first text-center md:text-left lg:pr-12">
+                <h3 class="font-bold mt-8 text-xl md:mt-0 sm:text-2xl">
+                    Bulk editing
+                </h3>
+                <p class="sm:text-lg mt-6">
+                    Do you need to change the path of many translation keys at once? No problem, just
+                    use the bulk editing feature and enjoy the results.
+                </p>
+            </div>
+        </div>
+      
+      </section>
       <section id="pricing" class=" py-28 bg-gray-50">
         <div class="container px-4 mx-auto">
             <!-- <div class="max-w-xl lg:max-w-2xl mx-auto mb-12 text-center">
