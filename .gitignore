@@ -1,4 +1,12 @@
+
+Cuisine.code-workspace
+node_modules
+Macon Code_files/css/
+Macon Code_files/img/
+
 # Byte-compiled / optimized / DLL files
+
+
 __pycache__/
 *.py[cod]
 *$py.class
